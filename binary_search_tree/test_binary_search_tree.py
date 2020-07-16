@@ -76,7 +76,7 @@ class BinarySearchTreeTests(unittest.TestCase):
         self.bst.insert(3)
         self.bst.insert(4)
         self.bst.insert(2)
-
+        
         self.bst.in_order_print(self.bst)
 
         output = sys.stdout.getvalue()
