@@ -106,7 +106,7 @@ class DoublyLinkedList:
     order of the other elements of the List.
     """
     def delete(self, node):
-        if self.head is not None and self.tail is not None:
+        if not self.head and not self.tail:
             return
         self.length -= 1
         if self.head == self.tail:
